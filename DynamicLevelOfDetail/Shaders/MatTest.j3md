@@ -1,0 +1,26 @@
+MaterialDef My MaterialDef{
+
+MaterialParameters{
+
+Vector4 Color
+Vector2 Offset
+Float size
+Texture2D Heightmap
+
+}
+
+Technique{
+VertexShader GLSL100: vert.glsl
+FragmentShader GLSL100: pixel.glsl
+
+WorldParameters{
+WorldViewProjectionMatrix
+WorldMatrix
+NormalMatrix
+Normal
+Time
+}
+Defines {
+}
+}
+}

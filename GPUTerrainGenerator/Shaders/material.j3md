@@ -1,0 +1,30 @@
+MaterialDef My MaterialDef{
+
+MaterialParameters{
+
+Vector2 Offset
+Texture2D permSampler2d
+Texture2D permGradSampler
+Texture2D testTexture
+Float Gain
+Float Amp
+Float Off
+Float H
+Float lac
+}
+
+Technique{
+VertexShader GLSL110: Noise_V.glsl
+FragmentShader GLSL110: Nose_P.glsl
+
+WorldParameters{
+WorldViewProjectionMatrix
+WorldMatrix
+NormalMatrix
+Normal
+Time
+}
+Defines {
+}
+}
+}
