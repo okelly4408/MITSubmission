@@ -2,9 +2,22 @@ MITSubmission
 =============
 
 This contains all of the described parts of my project including interactive level of detai, GPU generated heightmaps, Sobel filter normal mapping for lighting, and real-time atmospheric scattering
-All code is in Java with the use of the JMonkey3D Graphics Library.
+All code is in Java with the use of the JMonkey3D Graphics Library. The project "Original Planetary Code" represenets the base from which this project developed.
+It contains the original elevation algorithms as well as a primitive subdivision algorithm which has become obsolete with the creation of my 
+dynamic level of detail algorithm. This project uses Java3D as its graphics library. 
 Special acknowledgements to Sean O'Neil whose work greatly influenced the atmospheric scattering implementation as well
 as Ken Perlin who outlined the basis for procedural noise. 
+
+OriginalPlanetaryCode
+=======================
+This project contains: 
+*Accurate Cube to Sphere Mapping
+*Procedural Continents, Mountain Ranges, and Low-Lands
+*A Primitive System of Polygon Subdivision
+
+This project contains the code that inspired the rest of the code seen in this project. It is from this original idea that 
+allowed me to continue work advancing the developlment of a planetary terrain engine. Although most of this code is obsolete 
+and inaccurate, one can glean an idea of how this project originated through the presented code.
 
 DynamicLevelOfDetail
 =======================
